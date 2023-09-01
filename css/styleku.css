@@ -1,0 +1,62 @@
+h1{
+	font-weight:bold;
+	text-transform:capitalize;
+	letter-spacing:2px;
+	word-spacing:2px;
+	font-family:Perpetua Titling MT,Constantia;
+	color:#191970;
+	text-shadow: 2px 2px 5px LightSlateGrey;
+}
+.p1{
+	text-align:justify;
+	text-indent:0;
+}
+.p2{
+	color:#000080;
+	text-align:center;
+	text-indent:0;
+}
+.hobi{
+	list-style-type:lower-alpha;
+}
+ol#novel{
+	list-style-type:square;
+}
+ol.olahraga{
+	list-style-image:url('../images/jempol.gif');	
+}
+a.link_gambar:link, a.link_gambar:visited{
+	text-decoration:none;
+	color:none;
+	border-width:0px;
+	background-color:#191970;
+}
+a.link_gambar:hover{
+	text-decoration:none;
+	border-width:0px;
+	color:none;
+	background-color:#191970;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
